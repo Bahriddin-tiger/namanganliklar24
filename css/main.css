@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    margin: 0;
+  
+}
+
+ /* header-top */
+
+
+.header-top {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+}
+
+.logo-link {
+    margin-right: 41px;
+    padding: 9px 8px 6px;
+    background-color: #fff;
+}
+
+.logo-img {
+    width: 264px;
+    height: 28px;
+}
+
+.currency-list {
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+}
+
+.currency-item {
+    margin-right: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555;
+}
+
+.currency-span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 5px;
+    color: #2959CE;
+}
+
+.lenguages {
+    margin-right: 25px;
+    width: 70px;
+    height: 36px;
+    padding: 3px;
+    background: #DCE6FF;
+    border-radius: 39px;
+    text-align: center;
+}
+
+.lenguages-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #A6A6A6;
+    text-decoration: none;
+
+}
+
+.lenguages-aktiv {
+    background-color: #fff;
+    color: #000000;
+    padding: 8px 7px 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+/* header-miedle */
+
+
+.cite-login {
+    padding: 13px 20px;
+    background: #7296EC;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.nav-item {
+
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+   
+}
+
+.nav-link {
+    text-decoration: none;
+    color:  #7F7F7F;
+}
+
+/* header-bottom */
+
+.header-bottom {
+    margin: 40px 0 70px;
+}
+
+.shopmi-link {
+    text-decoration: none;
+}
+
+.shopmi {
+    width: 1200px;
+    height: 128px;
+
+}
+
+
+/* header */
+
+
+/* main */
+
+
+
+/* hero */
+
+
+.hero-item {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.hero-list {
+    margin-right: 10px;
+    padding: 20px 17px 15px;
+    width: 390px;
+    background-color: #F6F6F6;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.hero-heading {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.hero-text {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.hero-img {
+    width: 359px;
+    height: 165px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.list-box {
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.little-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.time-span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
+}
+
+  /* hero */
